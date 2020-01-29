@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnStart" Content="START" Margin="4,121,0,0" VerticalAlignment="Top" Click="btnStart_Click"/>
+        <TextBox x:Name="smaHostTF" HorizontalAlignment="Left" Margin="4,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" PlaceholderText="HOST"/>
+        <TextBox x:Name="smaUserNameTF" HorizontalAlignment="Left" Margin="4,47,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" PlaceholderText="BENUTZERNAME"/>
+        <TextBox x:Name="smaPWTF" HorizontalAlignment="Left" Margin="4,84,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" PlaceholderText="PASSWORT"/>
+        <ProgressBar x:Name="pbStatus" HorizontalAlignment="Left" Height="32" Margin="67,121,0,0" VerticalAlignment="Top" Width="150"/>
+
+    </Grid>
+</Page>
